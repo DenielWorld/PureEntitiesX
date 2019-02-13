@@ -24,11 +24,11 @@ use revivalpmmp\pureentities\data\Data;
 
 // use pocketmine\event\Timings;
 
-class Stray extends Skeleton{
+class Stray extends CaveSpider{
 	const NETWORK_ID = Data::NETWORK_IDS["stray"];
 
 	public function getName() : string{
-		return "Stray";
+		return "Crossbone";
 	}
 
 }
