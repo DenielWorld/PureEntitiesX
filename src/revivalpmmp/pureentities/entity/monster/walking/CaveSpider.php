@@ -35,8 +35,8 @@ class CaveSpider extends WalkingMonster{
 
 	public function initEntity() : void{
 		parent::initEntity();
-		$this->speed = 1.3;
-		$this->setDamage([0, 2, 3, 3]);
+		$this->speed = 2.3;
+		$this->setDamage([0, 3, 4, 5]);
 	}
 
 	public function getName() : string{
