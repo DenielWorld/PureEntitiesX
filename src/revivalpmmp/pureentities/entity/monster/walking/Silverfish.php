@@ -33,10 +33,10 @@ class Silverfish extends WalkingMonster{
 
 	public function initEntity() : void{
 		parent::initEntity();
-		$this->speed = 1.4;
+		$this->speed = 0.7;
 
-		$this->setMaxDamage(1);
-		$this->setDamage([0, 1, 1, 1]);
+		$this->setMaxDamage(20);
+		$this->setDamage([0, 10, 15, 20]);
 	}
 
 	public function getName() : string{
@@ -65,7 +65,7 @@ class Silverfish extends WalkingMonster{
 	}
 
 	public function getMaxHealth() : int{
-		return 8;
+		return 50;
 	}
 
 	public function updateXpDropAmount() : void{
